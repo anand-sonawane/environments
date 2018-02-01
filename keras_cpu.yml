@@ -1,0 +1,50 @@
+name: keras-cpu
+channels:
+- conda-forge
+- defaults
+dependencies:
+- bleach=1.5.0=py35_0
+- ca-certificates=2017.11.5=0
+- certifi=2017.11.5=py35_0
+- h5py=2.7.1=py35_2
+- hdf5=1.10.1=1
+- html5lib=0.9999999=py35_0
+- keras=2.0.9=py35_0
+- libgpuarray=0.7.5=0
+- mako=1.0.7=py35_0
+- markdown=2.6.9=py35_0
+- markupsafe=1.0=py35_0
+- ncurses=5.9=10
+- openssl=1.0.2n=0
+- pip=9.0.1=py35_1
+- protobuf=3.5.1=py35_3
+- pygpu=0.7.5=py35_0
+- python=3.5.4=3
+- pyyaml=3.12=py35_1
+- readline=7.0=0
+- setuptools=38.4.0=py35_0
+- six=1.11.0=py35_1
+- sqlite=3.20.1=2
+- tensorboard=0.4.0rc3=py35_2
+- tensorflow=1.4.0=py35_0
+- theano=1.0.1=py35_1
+- tk=8.6.7=0
+- webencodings=0.5=py35_0
+- werkzeug=0.14.1=py_0
+- wheel=0.30.0=py35_2
+- xz=5.2.3=0
+- yaml=0.1.6=0
+- zlib=1.2.11=0
+- intel-openmp=2018.0.0=hc7b2577_8
+- libgcc-ng=7.2.0=h7cc24e2_2
+- libgfortran=3.0.0=1
+- libgfortran-ng=7.2.0=h9f7466a_2
+- libstdcxx-ng=7.2.0=h7a57d05_2
+- mkl=2018.0.1=h19d6760_4
+- numpy=1.14.0=py35h3dfced4_1
+- scipy=1.0.0=py35hcbbe4a2_0
+- pip:
+  - keras-contrib==2.0.8
+  - tensorflow-tensorboard==0.4.0rc3
+prefix: /home/nitin/miniconda3/envs/keras-cpu
+
