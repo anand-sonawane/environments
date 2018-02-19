@@ -13,7 +13,11 @@ sudo pip install git+https://www.github.com/keras-team/keras-contrib.git
 
 ssh -N -f -L localhost:8889:localhost:8889 username@ip
 
-jupyter notebook --no-browser port=8888 notebook_name.ipnb
+jupyter notebook --no-browser --port=8888 notebook_name.ipnb
+
+### Sync the fork with the parent repo
+https://help.github.com/articles/syncing-a-fork/
+https://help.github.com/articles/configuring-a-remote-for-a-fork/
 
 
 
