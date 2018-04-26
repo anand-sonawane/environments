@@ -19,8 +19,8 @@ jupyter notebook --no-browser --port=8888 notebook_name.ipnb
 https://help.github.com/articles/syncing-a-fork/
 https://help.github.com/articles/configuring-a-remote-for-a-fork/
 
-
-
+### get name of layers in a pretrained tensorflow model
+sess.graph.get_operations() gives you a list of operations. For an op, op.name gives you the name and op.values() gives you a list of tensors it produces (in the inception-v3 model, all tensor names are the op name with a ":0" appended to it, so pool_3:0 is the tensor produced by the final pooling op.)
 
 
 
