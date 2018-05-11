@@ -15,6 +15,16 @@
 ### Change audio sample rate  
 
     ffmpeg -i input_file_name -ar 44100(new_sample_rate) output_file_name
+    
+    
+### Get mono channel from audio 
+
+    ffmpeg -i input_file_name -ac 1 output_file_name
+    
+    
+### Get audio from video file (mp4 to wav)  
+
+    ffmpeg -i input_file_name(mp4) output_file_name(wav)
   
     
 ### Get video duration in seconds
