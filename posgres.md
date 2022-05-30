@@ -1,8 +1,8 @@
-Connect to postgres - setup postgres server
-## Create New Database --> create database <db_name>;
-## Create New User --> create user <db_user_name> with password '<user_password>';
-## Grant permissions to the user --> grant all privileges on database <db_name> to <db_user_name>;
-## Alter permission for user --> ALTER user <db_user_name> CREATEDB;
+## Postgres server setup
+Create New Database --> create database <db_name>;
+Create New User --> create user <db_user_name> with password '<user_password>';
+Grant permissions to the user --> grant all privileges on database <db_name> to <db_user_name>;
+Alter permission for user --> ALTER user <db_user_name> CREATEDB;
 
 List all databases - \l
 List all roles - \du
